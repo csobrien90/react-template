@@ -1,5 +1,5 @@
 # React Template
-*A repo to jump start any react app (without all the nonsense that comes with Create React App*
+*A repo to jump start any react app (without all the nonsense that comes with Create React App)*
 
 Getting started:
 
