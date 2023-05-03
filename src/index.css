@@ -4,21 +4,24 @@ Imports and Variables
 ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Antic&display=swap');
+@font-face {
+	font-family: 'aperculight';
+	src: url('fonts/ApercuLight/apercu_light-webfont.woff2') format('woff2'),
+		 url('fonts/ApercuLight/apercu_light-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
 
 :root {
-	--black: #2b1a22;
-	--white: #efdbc4;
-	--tan: #bc946b;
-	--red-orange: #f05741;
-	--blue: #0089b8;
-	--yellow: #ddaf4a;
-	--boxBackground: rgba(255, 255, 255, .2);
+	--black: #231f20;
+	--white: #fff;
 
-	--hvy-shadow: 0 0 5px rgba(0, 0, 0, .8);
-	--shadow: 0 0 5px rgba(0, 0, 0, .5);
-	--lt-shadow: 0 0 4px rgba(0, 0, 0, .3);
-	--highlight: 0 0 5px var(--boxBackground);
+	--lime: #74bc1f;
+	--dk-purple: #480e67;
+	--lt-purple: #d8c4e5;
+	--burgundy: #b2282f;
+	--yellow: #ffb71b;
+	--orange: #fc5000;
 }
 
 /*
@@ -29,7 +32,7 @@ Default styles
 
 * {
 	box-sizing: border-box;
-	font-family: 'Antic', sans-serif;
+	font-family: 'aperculight', sans-serif;
 	margin: 0;
 }
 
